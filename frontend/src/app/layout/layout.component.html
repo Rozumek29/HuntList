@@ -1,0 +1,63 @@
+<div class="container" #container>
+  <nav>
+    <div class="sidebar-top">
+      <span class="shrink-btn" #shrink_btn (click)="shrinkClick()">
+        <i class='bx bx-chevron-left' ></i>
+      </span>
+      <i class='bx bx-crosshair logo' ></i>
+      <h3 class="hide">HuntList</h3>
+    </div>
+    <div class="sidebar-links">
+      <ul>
+        <li *ngFor="let link of mainLinks; let i = index" class="tooltip-element">
+          <a [routerLink]="link.path" #sidebarLinks [routerLinkActive]="['active-tab']">
+            <div class="icon">
+              <i [ngClass]="link.data.icon"></i>
+              <i [ngClass]="link.data.activeIcon"></i>
+            </div>
+            <span class="link hide">{{link.data.title | translate | titlecase}}</span>
+          </a>
+        </li>
+      </ul>
+
+      <h4 class="hide">{{'settings' | translate | titlecase}}</h4>
+
+      <ul>
+        <li *ngFor="let link of settingsLinks; let i = index">
+          <a [routerLink]="link.path" #sidebarLinks [routerLinkActive]="['active-tab']">
+            <div class="icon">
+              <i [ngClass]="link.data.icon"></i>
+              <i [ngClass]="link.data.activeIcon"></i>
+            </div>
+            <span class="link hide">{{link.data.title | translate | titlecase}}</span>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+    <div class="sidebar-footer">
+      <a href="#" class="account">
+        <i class='bx bx-user' ></i>
+      </a>
+      <div class="admin-user">
+        <div class="admin-profile hide">
+          <img src="/assets/images/user-img.jpg" alt="User image"/>
+          <div class="admin-info">
+            <h3>John Doe</h3>
+            <h5>User</h5>
+          </div>
+        </div>
+        <a href="" class="log-out">
+          <i class='bx bx-log-out'></i>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <router-outlet></router-outlet>
+    <p class="copyright">
+      &copy; 2023 - <span>HuntList</span> All Rights Reserved
+    </p>
+  </main>
+</div>
+

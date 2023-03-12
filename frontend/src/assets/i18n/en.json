@@ -1,0 +1,18 @@
+{
+  "Login": "Login",
+  "Register": "Sign Up",
+  "SignIn": "Sign In",
+  "SignUp": "Sign Up",
+  "NewHere": "New Here ?",
+  "NewHere_desc": "Join us and let us help you buy products wisely.",
+  "JoinUs": "Join Us",
+  "OneOfUs": "One of us ?",
+  "OneOfUs_desc": "If you already have an account, just sign in. We've missed you!",
+  "JohnSmith": "John Smith",
+  "JohnSmith_email": "john.smith@example.com",
+  "dashboard": "Dashboard",
+  "lists": "Lists",
+  "products": "Products",
+  "settings": "Settings",
+  "shoppingPartners": "Shopping Partners"
+}

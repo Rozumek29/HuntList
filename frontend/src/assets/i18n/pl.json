@@ -1,0 +1,18 @@
+{
+  "Login": "Zaloguj",
+  "Register": "Zarejestruj",
+  "SignIn": "Zaloguj się",
+  "SignUp": "Zarejestruj się",
+  "NewHere": "Nowy tutaj ?",
+  "NewHere_desc": "Dołącz do nas i pozwól nam pomóc ci kupować mądrzej.",
+  "JoinUs": "Dołącz do nas",
+  "OneOfUs": "Jesteś jednym z nas ?",
+  "OneOfUs_desc": "Jeśli masz już konto, zaloguj się. Tęsknimy za Tobą.",
+  "JohnSmith": "Jan Kowalski",
+  "JohnSmith_email": "jan.kowalski@domena.pl",
+  "dashboard": "Pulpit",
+  "lists": "Listy Zakupowe",
+  "products": "Produkty",
+  "settings": "Ustawienia",
+  "shoppingPartners": "Partnerzy Zakupowi"
+}
